@@ -1,0 +1,112 @@
+# To-Do List Application
+
+A simple and user-friendly To-Do List web application built using PHP and MySQL. This project allows users to manage their daily tasks efficiently through a clean and responsive interface.
+
+## Features
+
+- Add new tasks
+- View all tasks
+- Update existing tasks
+- Delete tasks
+- Mark tasks as completed
+- Responsive design
+- MySQL database integration
+
+## Technologies Used
+
+- PHP
+- MySQL
+- HTML5
+- CSS3
+- Bootstrap
+- JavaScript
+- Git & GitHub
+
+## Project Structure
+
+```
+todo-project/
+│
+├── css/
+├── js/
+├── images/
+├── database.sql
+├── index.php
+├── add.php
+├── edit.php
+├── delete.php
+├── config/
+└── README.md
+```
+
+## Installation
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/todo-project.git
+```
+
+### 2. Move Project to XAMPP
+
+Copy the project folder to:
+
+```
+C:\xampp\htdocs\
+```
+
+### 3. Create Database
+
+1. Open phpMyAdmin
+2. Create a database named:
+
+```sql
+todo_db
+```
+
+### 4. Import Database
+
+1. Select `todo_db`
+2. Click **Import**
+3. Choose `database.sql`
+4. Click **Go**
+
+### 5. Configure Database Connection
+
+Update your database credentials in the configuration file:
+
+```php
+$host = "localhost";
+$user = "root";
+$password = "";
+$dbname = "todo_db";
+```
+
+### 6. Run the Project
+
+Start Apache and MySQL from XAMPP and open:
+
+```
+http://localhost/todo-project
+```
+
+## Screenshots
+
+Add screenshots of your application here.
+
+## Future Enhancements
+
+- User Authentication
+- Task Categories
+- Due Dates
+- Search and Filter Tasks
+- Dark Mode
+- REST API Integration
+
+## Author
+
+NUMAN KHAN
+
+## License
+
+This project is licensed under the MIT License.
