@@ -68,7 +68,7 @@ todo_db
 
 1. Select `todo_db`
 2. Click **Import**
-3. Choose `database.sql`
+3. Choose `todo.sql`
 4. Click **Go**
 
 ### 5. Configure Database Connection
