@@ -1,8 +1,8 @@
 <?php
 
 $host = "localhost";
-$user = "root";
-$password = "";
+$user = "your_username";
+$password = "your_password";
 $database = "todo_db";
 
 $conn = mysqli_connect($host, $user, $password, $database, 3307);
